@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRNB DOTER – Отзывы</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="https://image.flaticon.com/icons/png/512/871/871499.png">
+    <script type="text/javascript" src="https://vk.com/js/api/openapi.js?169"></script>
+    <script type="text/javascript">VK.init({apiId: 7855841, onlyWidgets: true});</script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="content-header">
+            <a href="index" class="header-logo">GRNB DOTER</a>
+
+                <nav class="header-nav">
+                    <ul class="header-list">
+                        <li class="header-item"><a href="about" class="header-link">Обо мне</a></li>
+                        <li class="header-item"><a href="roles" class="header-link">Роли</a></li>
+                        <li class="header-item"><p class="header-link-chosen">Отзывы</p></li>
+                    </ul>
+                </nav>
+        </div>
+    </header>
+
+    <main class="content-main">
+        <section class="main-text">
+            <h1 class="main-title">ОТЗЫВЫ</h1>
+        </section>
+
+        <dev class="main-reviews">
+            <div id="vk_comments"></div>
+                <script type="text/javascript">
+                VK.Widgets.Comments("vk_comments", {limit: 10, attach: "photo,audio,link"});
+                </script>
+        </div>
+    </main>
+
+    <footer class="content-footer">
+        <p>© GRNB DOTER, 2021<br><br>Dota и логотип Dota являются товарными знаками и/или зарегистрированными товарными знаками Valve Corporation. 2021 Valve Corporation, все права защищены.</p>
+    </footer>
+</body>
+</html>

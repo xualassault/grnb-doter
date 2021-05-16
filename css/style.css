@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21,78px;
+    background-color: #011627;
+    background-image: url(https://static.wikia.nocookie.net/dota2_gamepedia/images/6/6b/Soul_Devourer_Loading_Screen_16x9.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    -webkit-transition: all 0.5s ease;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header start */
+
+.content-header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 509px;
+    max-height: 600px;
+    margin: 54px 0 0 116px;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 116px;
+}
+
+.header-logo {
+    display: flex;
+    font-weight: 900;
+    font-size: 24px;
+    color: #ffff;
+    text-decoration: none;
+
+    transition: background-color 0.2s ease-out, color 0.2s ease-out;
+    transition-property: background-color, color;
+    transition-duration: 0.2s, 0.2s;
+    transition-timing-function: ease-out, ease-out;
+    transition-delay: 0s, 0s;
+}
+
+.header-logo:hover, .header-logo:focus, .header-logo:active {
+    color: #DD1313;
+}
+
+.header-nav {
+    display: flex;
+    margin-left: 50px;
+}
+
+.header-list {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.header-item {
+    margin-right: 35px;
+}
+
+.header-item:last-child {
+    margin-right: 0px;
+}
+
+.header-link {
+    color: #E7E7E7;
+
+    transition: background-color 0.2s ease-out, color 0.2s ease-out;
+    transition-property: background-color, color;
+    transition-duration: 0.2s, 0.2s;
+    transition-timing-function: ease-out, ease-out;
+    transition-delay: 0s, 0s;
+}
+
+.header-link:hover, .header-link:focus, .header-link:active {
+    color: #DD1313;
+}
+
+.header-link-chosen {
+    color: #DD1313;
+    text-decoration: none; 
+}
+
+/* Header end */
+
+/*Main start */
+
+.main-text {
+    padding-top: 228px;
+    padding-left: 120px;
+    max-width: 700px;
+}
+
+.main-title {
+    display: flex;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 87px;
+    color: #ffff;
+}
+
+.main-secondary-text {
+    display: flex;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #B8B8B8;
+    margin-top: 60px;
+    max-width: 510px;
+}
+
+.content-button {
+    display: flex;
+    flex-direction: row;
+    font-weight: 500;
+    line-height: 22px;
+    align-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 250px;
+    height: 56px;
+    background-color: #DD1313;
+    border-radius: 50px;
+    margin-left: 120px;
+    margin-top: 114px;
+    text-decoration: none;
+    color: #212121;
+
+    transition: background-color 0.2s ease-out, color 0.2s ease-out;
+    transition-property: background-color, color;
+    transition-duration: 0.2s, 0.0s;
+    transition-timing-function: ease-out, ease-out;
+    transition-delay: 0s, 0s;
+}
+
+.content-button:hover, .content-button:focus, .content-button:active {
+    color: #DD1313;
+    background-color: #212121;
+}
+
+.main-description-text {
+    display: flex;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+    max-width: 510px;
+    flex-direction: column;
+    padding-top: 60px;
+    margin-bottom: -40px;
+}
+
+.main-roles-list {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 60px;
+    margin-left: 120px;
+    max-width: 900px;
+}
+
+.main-roles-item {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.main-roles-image {
+    width: 260px;
+    height: 260px;
+    background-color: #FFFFFF;
+    filter: saturate(0);
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px 2px #000000;
+
+    -webkit-transition: filter 0.3s ease;
+}
+
+.main-roles-image:hover, .main-roles-image:focus, .main-roles-image:active {
+    filter: saturate(1);
+}
+
+
+.main-roles-text {
+    margin-top: 24px;
+}
+
+.main-roles-title {
+    display: flex;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #DD1313;
+    margin-bottom: 10px;
+    max-width: 260px;
+}
+
+.main-roles-description {
+    display: flex;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #B8B8B8;
+    max-width: 260px;
+}
+
+.main-reviews {
+    display: block;
+    background-color: white;
+    max-width: 480px;
+    max-width: 650px;
+    min-width: 300px;
+    margin-left: 120px;
+    margin-top: 60px;
+}
+
+/* Main stop */
+
+/* Footer start */
+
+.content-footer {
+    display: flex;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: #696969;
+    max-width: 800px;
+    margin-left: 120px;
+    margin-top: 294px;
+    padding-bottom: 60px;
+}
+
+/*Footer stop */
